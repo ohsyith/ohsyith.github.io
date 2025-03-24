@@ -26,7 +26,6 @@
             --transition: all 0.3s ease;
         }
 
-        /* === RESET & BASE STYLES === */
         * {
             margin: 0;
             padding: 0;
@@ -36,13 +35,18 @@
 
         html {
             scroll-behavior: smooth;
+            overflow-x: hidden; 
+            max-width: 100%; 
+
         }
 
         body {
             background-color: var(--bg-light);
             color: var(--text-color);
             line-height: 1.7;
-            overflow-x: hidden;
+            overflow-x: hidden; 
+            max-width: 100%; 
+
         }
 
         a {
@@ -63,11 +67,11 @@
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 0 20px; /* Reduced padding for better mobile display */
+            padding: 0 20px; 
         }
 
         .section {
-            padding: 80px 0; /* Reduced padding for better mobile display */
+            padding: 80px 0; 
             position: relative;
         }
 
